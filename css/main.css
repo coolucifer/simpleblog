@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body{
   background: #454545;
   line-height: 1.7;
@@ -83,4 +88,9 @@ a,body{
   font-size: 30px;
   display: inline-block;
   margin-bottom: 10px;
+}
+
+#menu-checkbox,
+#menu-toggle {
+  display: none;
 }
